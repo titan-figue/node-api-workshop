@@ -7,17 +7,17 @@ const test = require('unit.js');
 describe('Ma demo', function() {
   it('example devrait être une string', function() {
     // just for example of tested value
-    let example = 'hello';
+    let example = 'hello Bidart';
     // assert that example variable is a string
     test.string(example);
   });
 
-  it('example est égale à "hello"', function() {
+  it('example est égale à "hello Bidart"', function() {
     // just for example of tested value
-    let example = 'hello';
+    let example = 'hello Bidart';
     // assert that example variable is a string
-    test.string(example).is('hello');
-    example.should.be.equal('hello');
+    test.string(example).is('hello Bidart');
+    example.should.be.equal('hello Bidart');
   });
 });
 
